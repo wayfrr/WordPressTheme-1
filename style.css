@@ -1,0 +1,45 @@
+/* 
+    Theme Name: mytheme
+    Theme URI: www.nair.network
+    Author: MSR
+    Description: This is my basic wordpress theme
+    Tags: mysite_template, wordpress_theme, dailytution
+    License: GNU General Public License
+    Version: 1.0
+*/
+
+body{
+    color: #333333;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+header.header-a{
+    background: lightblue;
+    color: black;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    width: 60%;
+}
+
+header.header-a h1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+
+}
+
+header.header-a h3{
+    color: black;
+    font-size: 16px;
+}
+
+#main{
+    display:grid;
+    grid-template-columns: 70% 30%;
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
